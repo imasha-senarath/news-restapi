@@ -1,0 +1,27 @@
+{
+  "name": "news-application-rest-api",
+  "version": "1.0.0",
+  "description": "A Node.js REST API for a news application as a middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "REST",
+    "API"
+  ],
+  "author": "Imasha Senarath",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
