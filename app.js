@@ -13,7 +13,7 @@ const registerRoutes = require('./api/routes/register');
 const loginRoutes = require('./api/routes/login');
 
 //mongo online database connection
-MongoClient.connect('mongodb+srv://ImashaSenarath:'+ process.env.MONGO_ATLAS_PW +'@newsapplication-vqb4h.mongodb.net/test?retryWrites=true&w=majority',
+MongoClient.connect('mongodb+srv://ImashaSenarath:'+ process.env.MONGO_ATLAS_PW +'@newssystem.4by26.mongodb.net/News-Database?retryWrites=true&w=majority',
 {
     useNewUrlParser: true,
     useUnifiedTopology: true
